@@ -54,7 +54,7 @@ Usage: doDBA [OPTIONS]
   -log
         Print to file by day.
   -nocolor
-        Print to file by day.
+        Print to nocolor.
 ```
 
 #Configuration 
