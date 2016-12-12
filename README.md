@@ -70,3 +70,4 @@ for json:
 }
 
 #Example 
+./doDBA -h=10.1.xx.xx -mysql
