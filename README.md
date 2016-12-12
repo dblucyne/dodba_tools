@@ -15,6 +15,9 @@ cd dodba_tools/
 
 chmod +x doDBA 
 
+#Usage
+./doDBA -help
+
 #Configuration 
 for json:
 {
