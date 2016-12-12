@@ -19,7 +19,7 @@ chmod +x doDBA
 ./doDBA -help
 
 #Configuration 
-for json:
+doDBA.conf
 {
     "Host":"",
     "Huser": "root",
@@ -29,6 +29,8 @@ for json:
     "Mpwd":  "dodba",
     "Mport":"3306"
 }
+For example:
+./doDBA -c=doDBA.conf
 
 #Example 
 ./doDBA -h=10.1.xx.xx -mysql
