@@ -74,7 +74,7 @@ For example:
 ```
 #Example 
 ```
-./doDBA -h=10.1.3.21 -myall
+./doDBA -h=10.1.xx.xx -myall
 DoDBA tools on host 10.1.xx.xx
 ---------+---load--avg---+-----cpu-usage-----+-swap+----net----+----mysql-status-------+-slow---th---+---bytes---
 time     |   1m   5m  10m| usr  sys  iow  ide|si so| recv  send|QPS  TPS  ins  upd  del| sql run  con| recv  send
