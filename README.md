@@ -12,3 +12,18 @@ doDBA is written in go.
 git clone https://github.com/dblucyne/dodba_tools
 cd dodba_tools/
 chmod +x doDBA 
+
+#Configuration 
+for json:
+{
+"Host":"",
+"Huser": "root",
+"Hport": "22",
+"Hpwd":  "",
+"Muser": "dodba",
+"Mpwd":  "dodba",
+"Mport":"3306"
+}
+
+#Example 
+./doDBA -h=10.1.xx.xx -mysql
