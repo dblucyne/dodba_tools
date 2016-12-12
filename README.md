@@ -10,7 +10,9 @@ doDBA is written in go.
 #Download
 
 git clone https://github.com/dblucyne/dodba_tools
+
 cd dodba_tools/
+
 chmod +x doDBA 
 
 #Usage
