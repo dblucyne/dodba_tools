@@ -54,7 +54,7 @@ Usage: doDBA [OPTIONS]
         Print to file by day.
   -nocolor
         Print to file by day.
-        
+
 #Configuration 
 for json:
 {
