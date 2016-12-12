@@ -6,6 +6,10 @@ it collects real-time performance data from system and MySQL.
 And can generate a trace file to help you analyze the MySQL database.
 This program is free software.doDBA is written in go.
 
+Authors:dblucyne@gmail.com
+
+WeChat:doDBA
+
 #Download
 ```
 git clone https://github.com/dblucyne/dodba_tools
