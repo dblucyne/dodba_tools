@@ -4,8 +4,7 @@ The doDBA tools is a console-based remote system monitor.
 that does not require special software on the remote system.
 it collects real-time performance data from system and MySQL. 
 And can generate a trace file to help you analyze the MySQL database.
-This program is free software.
-doDBA is written in go.
+This program is free software.doDBA is written in go.
 
 #Download
 ```
@@ -69,6 +68,7 @@ doDBA.conf
     "Mpwd":  "dodba",
     "Mport":"3306"
 }
+
 For example:
 ./doDBA -c=doDBA.conf
 ```
