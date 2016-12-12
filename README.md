@@ -8,17 +8,57 @@ This program is free software.
 doDBA is written in go.
 
 #Download
-
+```
 git clone https://github.com/dblucyne/dodba_tools
-
 cd dodba_tools/
-
 chmod +x doDBA 
-
+```
 #Usage
+```
 ./doDBA -help
+Usage: doDBA [OPTIONS]
+  -help
+        Display this help.
+  -c string
+        configuration file. (default "doDBA.conf")
+  -h string
+        Connect to host/IP.
+  -sys
+        Print system info.
+  -myall
+        Print system and mysql info.
+  -mysql
+        Print mysql info.
+  -innodb
+        Print innodb info.
+  -mytop
+        Print mysql prcesslist info , like top.
+  -i duration
+        refresh interval in seconds. (default 1s)
+  -t int
+        mysql trace on Threads_running. (default 50)
+  -hP string
+        Connect host port. (default "22")
+  -hp string
+        Connect host password.
+  -hu string
+        Connect host user. (default "root")
+  -mP string
+        Connect mysql port. (default "3306")
+  -mp string
+        Connect mysql password.
+  -mu string
+        Connect mysql user.
+  -rds
+        Ignore system info.
+  -log
+        Print to file by day.
+  -nocolor
+        Print to file by day.
+```
 
 #Configuration 
+```
 doDBA.conf
 {
     "Host":"",
@@ -31,6 +71,6 @@ doDBA.conf
 }
 For example:
 ./doDBA -c=doDBA.conf
-
+```
 #Example 
 ./doDBA -h=10.1.xx.xx -mysql
