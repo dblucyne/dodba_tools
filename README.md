@@ -57,6 +57,7 @@ Usage: doDBA [OPTIONS]
   -nocolor
         Print to file by day.
 
+
 #Configuration 
 for json:
 {
