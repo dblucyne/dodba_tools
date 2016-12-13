@@ -39,7 +39,7 @@ Usage: doDBA [OPTIONS]
   -i duration
         refresh interval in seconds. (default 1s)
   -t int
-        mysql trace on Threads_running. (default 50)
+        mysql doing on Threads_running. (default 50)
   -hP string
         Connect host port. (default "22")
   -hp string
