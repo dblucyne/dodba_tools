@@ -6,7 +6,7 @@ it collects real-time performance data from linux and MySQL.
 And can generate a doing file to help you analyze the MySQL database.
 This program is free software.doDBA is written in go.
 
-Authors:dblucyne@gmail.com
+Author:dblucyne@gmail.com
 
 WeChat:doDBA
 
