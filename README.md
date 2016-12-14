@@ -12,9 +12,9 @@ WeChat:doDBA
 
 #Download
 ```
-git clone https://github.com/dblucyne/dodba_tools
-cd dodba_tools/
-chmod +x doDBA 
+wget https://raw.githubusercontent.com/dblucyne/dodba_tools/master/doDBA --no-check-certificate
+wget https://raw.githubusercontent.com/dblucyne/dodba_tools/master/doDBA.conf --no-check-certificate
+chmod +x doDBA
 ```
 #Usage
 ```
@@ -103,4 +103,36 @@ time     |   1m    5m   10m| usr  sys  iow  ide|siso| recv  send|QPS  TPS  ins  
 17:19:19 | 0.00  0.00  0.00| 0.0  0.0  0.0  0.0| 0 0|   0K    0K|273  117   30   87    0|   1   2   20| 135K  502K
 17:19:20 | 0.00  0.00  0.00| 0.0  0.0  0.0  0.0| 0 0|   0K    0K|207  173   74   99    0|   1   2   17| 137K  279K
 17:19:21 | 0.00  0.00  0.00| 0.0  0.0  0.0  0.0| 0 0|   0K    0K|161  233  105  128    0|   0   1    5| 146K  193K
+```
+
+```
+./doDBA -h=10.1.xx.xx -myall -t=3
+2016/12/14 11:47:52 ----------------processlist---------------
+ID:606374462
+User:ums_read
+Host:10.1.50.61:31886
+DB:mia
+Command:Query
+Time:3121
+State:Sending data
+Info:SELECT ......................
+
+=====================================
+2016-12-14 11:49:16 7f93ece24700 INNODB MONITOR OUTPUT
+=====================================
+Per second averages calculated from the last 1 seconds
+-----------------
+BACKGROUND THREAD
+-----------------
+srv_master_thread loops: 11256164 srv_active, 0 srv_shutdown, 27867 srv_idle
+srv_master_thread log flush and writes: 11284031
+----------
+SEMAPHORES
+----------
+OS WAIT ARRAY INFO: reservation count 1562657988
+OS WAIT ARRAY INFO: signal count 11589318962
+Mutex spin waits 7915500772, rounds 7044249291, OS waits 29061199
+RW-shared spins 15964124137, rounds 99809511531, OS waits 1188604739
+RW-excl spins 1056480533, rounds 26766008869, OS waits 261290579
+....................................
 ```
