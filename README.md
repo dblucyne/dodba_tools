@@ -133,5 +133,5 @@ OS WAIT ARRAY INFO: signal count 11589318962
 Mutex spin waits 7915500772, rounds 7044249291, OS waits 29061199
 RW-shared spins 15964124137, rounds 99809511531, OS waits 1188604739
 RW-excl spins 1056480533, rounds 26766008869, OS waits 261290579
-....................................
+........................................
 ```
