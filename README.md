@@ -16,7 +16,6 @@ wget https://raw.githubusercontent.com/dblucyne/dodba_tools/master/doDBA --no-ch
 wget https://raw.githubusercontent.com/dblucyne/dodba_tools/master/doDBA.conf --no-check-certificate
 chmod +x doDBA
 ```
-#Usage
 ```
 ./doDBA -help
 Usage: doDBA [OPTIONS]
@@ -110,7 +109,7 @@ time     |   1m    5m   10m| usr  sys  iow  ide|siso| recv  send|QPS  TPS  ins  
 2016/12/14 11:47:52 ----------------processlist---------------
 ID:606374462
 User:ums_read
-Host:10.1.50.61:31886
+Host:10.1.xx.xx:31886
 DB:mia
 Command:Query
 Time:3121
