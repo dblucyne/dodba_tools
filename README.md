@@ -16,6 +16,11 @@ wget https://raw.githubusercontent.com/dblucyne/dodba_tools/master/doDBA --no-ch
 wget https://raw.githubusercontent.com/dblucyne/dodba_tools/master/doDBA.conf --no-check-certificate
 chmod +x doDBA
 ```
+or
+```
+git pull https://github.com/dblucyne/dodba_tools
+```
+
 ```
 ./doDBA -help
 Usage: doDBA [OPTIONS]
