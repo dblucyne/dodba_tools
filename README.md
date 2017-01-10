@@ -22,6 +22,8 @@ git pull https://github.com/dblucyne/dodba_tools
 ```
 
 ```
+
+#help
 ./doDBA -help
 Usage: doDBA [OPTIONS]
   -help
